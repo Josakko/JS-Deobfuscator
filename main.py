@@ -14,8 +14,8 @@ class Deobfuscator:
 
         file = arg.i
         if not file: 
-            rich.print("""
-usage: main.py [-h] [-i I] [-o O]
+            rich.print(f"""
+usage: {os.path.basename(sys.argv[0])} [-h] [-i I] [-o O]
 
 options:
 -h, --help  show this help message and exit
